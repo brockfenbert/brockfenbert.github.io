@@ -1,0 +1,16 @@
+Update Log:
+
+10/25/18
+Basic formatting of website created.  Navigation bar with dropdown menu for (non-working) link to projects page and a
+    link back to the home page.  Could not get the GitHub and Email images to center properly, so for now they are
+    commented out and replaced with a simple text.  Project images do not have working links to separate project
+    pages with descriptions of what they were about.  Planet Polluter links to the Unity WebGl build.  Resume link is
+    not currently online, but will be added sometime over this weekend.  Also going to work on getting a photo next to
+    the bio and a working project page/description pages.
+10/24/18
+Link added for PlanetPolluter, WebGL build completed and working
+10/23/18
+Link added for resume
+
+10/22/18
+Domain purchased, hosting setup via GitHub pages.  3 basic lines of text on a blank page

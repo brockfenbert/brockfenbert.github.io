@@ -4,18 +4,78 @@
     <meta charset="UTF-8">
     <title>Brock Fenbert</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-
+    Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJ7Al2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-<b>Welcome</b><br>
 
-<p>This website is still under construction</p>
-<p>I will be updating it with more information and style over the next month</p>
-    <a href = "Brock_Fenbert_Resume_Online.pdf"> Click here for my resume</a>
-<p>Below is a link to Planet Polluter, the game developed by me and four peers at the <br />
-NASA Space Apps Challenge, Boston.</p>
-<a href = "PlanetPolluter.html"> click here to play Planet Polluter</a>
+<!-- NavBar -->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+
+<!-- NavBar -->
+
+<div class="body-content">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="intro-hello">
+                <b>Hello</b>
+            </div>
+            <div class="intro-info">
+                <p>My name is Brock Fenbert. I am a sophomore Computer Engineering and Computer Science
+                    major at Northeastern University. This website will have all of my current and future
+                    projects. I can be reached at (206)-650-0247 or brock.fenbert@gmail.com</p><br>
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+
+        </div>
+        <!--<p>This website is still under construction</p>-->
+        <!--<p>I will be updating it with more information and style over the next month</p>-->
+        <!--<a href = "Brock_Fenbert_Resume_Online.pdf"> Click here for my resume</a>-->
+        <!--<p>Below is a link to Planet Polluter, the game developed by me and four peers at the <br />-->
+        <!--NASA Space Apps Challenge, Boston.</p>-->
+        <!--<a href = "PlanetPo
+lluter.html"> click here to play Planet Polluter</a>-->
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="project-link">
+                <a href="#">Projects</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+                <img class="img-fluid" src="project-images/carousel-piezo.JPG">
+            </a>
+
+        </div>
+        <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+                <img class="img-fluid" src="project-images/carousel-arm.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="PlanetPolluter.html" target="_blank" class="thumbnail">
+                <img class="img-fluid" src="project-images/planet-polluter1.png">
+            </a>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
