@@ -1,5 +1,8 @@
 Update Log:
 
+4/4
+Starting to make a serious attempt at finishing up this website.
+
 10/25/18
 Basic formatting of website created.  Navigation bar with dropdown menu for (non-working) link to projects page and a
     link back to the home page.  Could not get the GitHub and Email images to center properly, so for now they are
