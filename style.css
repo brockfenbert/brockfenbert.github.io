@@ -16,9 +16,7 @@
     display: block;
 }
 
-.dropdown:hover {
-    /*background-color: darkblue;*/
-}
+
 
 /* body style */
 .body-content {
@@ -32,9 +30,6 @@
 }
 
 /* intro */
-.intro {
-    padding-top: 12%;
-}
 .intro-hello {
     font-size: 40px;
 }
@@ -48,4 +43,26 @@
     font-size: 40px;
 }
 
+/*.underline {*/
+    /*vertical-align: middle;*/
+    /*padding-bottom: 7% !important;*/
+/*}*/
+.col-md {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 /* NAVBAR */
+.dropdown:hover {
+    background-color: darkblue;
+}
+.navbar {
+    width: 100%;
+    background-color: #ebf4f6;
+}
+
+/* Borders */
+.border-5 {
+    border-width:10px !important;
+    border-color: #76b4bd !important;
+}
