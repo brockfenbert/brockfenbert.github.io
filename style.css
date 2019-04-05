@@ -53,6 +53,12 @@
     /*padding-bottom: 7% !important;*/
 }
 
+/* Carousel */
+.carousel-header {
+    font-size: 40px;
+
+}
+
 /* NAVBAR */
 .navbar {
     width: 100%;
@@ -71,4 +77,12 @@
 .border-5 {
     border-width:10px !important;
     border-color: #76b4bd !important;
+}
+
+.nav-image {
+    margin: 10px;
+}
+
+.nav-image:hover {
+    opacity: .5 !important;
 }

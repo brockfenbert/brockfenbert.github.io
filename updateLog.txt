@@ -1,5 +1,12 @@
 Update Log:
 
+4/5
+    TODO:
+    - email/github/linkedin links in navbar (done)
+    - projects page / individual projects page
+    - add in the skills
+    - header for projects carousel (done, poorly)
+
 4/4
 Starting to make a serious attempt at finishing up this website.
 
