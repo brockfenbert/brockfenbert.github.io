@@ -48,6 +48,11 @@
     padding-bottom: 5%;
 }
 
+.underline {
+    vertical-align: middle;
+    /*padding-bottom: 7% !important;*/
+}
+
 /* NAVBAR */
 .navbar {
     width: 100%;
