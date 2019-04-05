@@ -49,12 +49,17 @@
 }
 
 /* NAVBAR */
-.dropdown:hover {
-    background-color: darkblue;
-}
 .navbar {
     width: 100%;
     background-color: #ebf4f6;
+}
+
+.nav-link {
+    color: #5e5656 !important
+}
+
+.nav-link:hover {
+    color: #76b4bd !important;
 }
 
 /* Borders */
