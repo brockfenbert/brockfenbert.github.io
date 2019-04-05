@@ -2,9 +2,11 @@ Update Log:
 
 4/5
     TODO:
-    - email/github/linkedin links in navbar (done)
+    - Add in link to the carousel (and do the styling)
     - projects page / individual projects page
     - add in the skills
+    Finished:
+    - email/github/linkedin links in navbar (done)
     - header for projects carousel (done, poorly)
 
 4/4
