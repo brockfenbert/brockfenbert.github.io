@@ -53,6 +53,16 @@
     /*padding-bottom: 7% !important;*/
 }
 
+.skills-icon img {
+    height: 100px;
+    align-content: center;
+    align-items: center;
+}
+
+.skills-icon img:hover {
+    opacity: .65;
+}
+
 /* Carousel */
 .carousel-header {
     font-size: 40px;
