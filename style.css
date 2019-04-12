@@ -16,8 +16,6 @@
     display: block;
 }
 
-
-
 /* body style */
 .body-content {
     padding: 2%;
@@ -27,6 +25,16 @@
 .row {
     clear: both;
     padding-top: 4%;
+}
+
+.normal-link {
+    text-decoration: none !important;
+    color: black;
+}
+
+.normal-link:hover {
+    color: black;
+    opacity: .75;
 }
 
 /* intro */
@@ -123,6 +131,7 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
+    /*background-color: #76b4bd;*/
 }
 
 .col-sm:hover .image-overlay {
