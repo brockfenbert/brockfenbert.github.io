@@ -28,8 +28,8 @@ function showText(info) {
             "The C# is purely self-taught for use in game development side projects in conjunction with Unity. My " +
             "first time using C#/Unity was during the NASA SpaceApps Hackathon with Planet Polluter, and since I have" +
             " been working on making some games on my own. My first goal was a 2D platformer (I've played a fair " +
-            "amount of 2D flash games), but have scaled back my initial plans to making clones of games like snake to" +
-            " get the basics down.";
+            "amount of flash games so my mind went right there), but have scaled back my initial plans to making " +
+            "clones of games like snake to get the basics down.";
     } else if (info === 'html') {
         document.getElementById("skill-text").innerHTML =
             "I'm lumping HTML/CSS/JavaScript all under the same category of skills. My exposure to these languages " +
