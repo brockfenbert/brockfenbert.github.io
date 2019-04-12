@@ -150,9 +150,15 @@
     text-align: center;
 }
 
-/*.image-third {*/
-    /*max-width: 33%;*/
-/*}*/
+/* PLANET POLLUTER */
+.fullscreen {
+    background-image: url('/PlanetPolluterTemplateData/fullscreen.png');
+    width: 38px;
+}
+
+.gameHolder {
+    padding-right: 50% !important;
+}
 
 
 
