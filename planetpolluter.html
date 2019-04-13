@@ -25,7 +25,7 @@
 
         gtag('config', 'UA-138233486-1');
     </script>
-    <link rel="shortcut icon" href="PlanetPolluterTemplateData/favicon.ico">
+    <link rel="shortcut icon" href="project-images/planet-polluter-icon.png">
     <link rel="stylesheet" href="PlanetPolluterTemplateData/style.css">
     <script src="PlanetPolluterTemplateData/UnityProgress.js"></script>
     <script src="PlanetPolluterBuild/UnityLoader.js"></script>
@@ -40,19 +40,36 @@
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="homeScripts.js"></script>
 <div class="body-content">
-    <!--style="width: 50%; height: 50%;"-->
-    <div class="mx-auto d-block" id="gameContainer" style="width: 800px; height: 500px"></div>
+    <!--style="width: 800px; height: 500px"-->
+    <div class="mx-auto d-block" id="gameContainer" style="width: 50%; height: 50%;"></div>
     <div class="intro-hello" style="text-align: center;">
         <b>Planet Polluter</b>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
             <img src="PlanetPolluterTemplateData/fullscreen.png">
         </div>
     </div>
-    <div class="pollution-description">
+    <div class="pollution-description row justify-content-center">
+        <div class="col-8">
         <p>Planet Polluter was created for the 2018 NASA SpaceApps Hackathon in Boston. The game is modelled after
         Plague Inc. In Planet Polluter, the goal is to pollute the planet by placing factories, farms and energy
         plants around the world (in Plague, the goal is to infect the entire world with a virus). We used NASA data
-        as a basis for how fast CO2/temperature should rise in our game.</p>
+        as a basis for how fast CO2/temperature should rise in our game. Feel free to play! Built using C# and Unity.
+        Click <a class="normal-link" href="https://www.youtube.com/watch?v=QbcEuj9VatY" target="_blank" style="color: #008CBA">here</a>
+            to watch our 30-second video submitted to the global finals (and see some gameplay).</p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-3" style="font-size: 20px">
+            <h3><b>Team Members</b></h3>
+            <a class="normal-link" href="http://joshafield.com" target="_blank">Josh Field</a><br>
+            <a class="normal-link" href="https://blakemchale.com" target="_blank">Blake McHale</a><br>
+            <a class="normal-link" href="https://christiankuss.com" target="_blank">Christian Kuss</a><br>
+            <p>Ryan Lung</p>
+        </div>
+        <div class="col-sm-6">
+            <img src="project-images/polluter-award.jpg" class="border-5 d-block img-fluid rounded border-right
+                border-bottom">
+        </div>
     </div>
 </div>
 </body>

@@ -98,7 +98,7 @@
 }
 
 .nav-link {
-    color: #5e5656 !important
+    color: #5e5656 !important;
 }
 
 .nav-link:hover {
@@ -158,6 +158,12 @@
 
 .gameHolder {
     padding-right: 50% !important;
+}
+
+.pollution-description {
+    text-align: left;
+    font-size: 22px;
+    color: #5e5656;
 }
 
 
