@@ -37,18 +37,21 @@
     opacity: .75;
 }
 
-/* intro */
-.intro-hello {
-    font-size: 40px;
+/* Text Size */
+.large-text {
+    font-size: calc(17px + 1vw);
+}
+
+.medium-text {
+    font-size: calc(14px + .8vw);
+}
+
+.medium-dogfish {
+    font-size: calc(14px + .5vw)
 }
 
 .intro-info {
     font-family: Georgia, Times, serif;
-    font-size: 25px;
-}
-
-.project-link {
-    font-size: 40px;
 }
 
 .col-md {
@@ -71,19 +74,15 @@
     opacity: .65;
 }
 
-/* Fun skills descriptions */
-/*.description-placeholder {*/
-    /*display:none;*/
-/*}*/
+
 .skill-text {
     padding-left: 5%;
     padding-right: 5%;
-    font-size: 25px;
+    font-size: calc(14px + .8vw);
 }
 
 /* Carousel */
 .carousel-header {
-    font-size: 40px;
     text-align: center;
 }
 
@@ -140,7 +139,6 @@
 
 .image-overlay-text {
     color: white;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -162,7 +160,6 @@
 
 .pollution-description {
     text-align: left;
-    font-size: 22px;
     color: #5e5656;
 }
 

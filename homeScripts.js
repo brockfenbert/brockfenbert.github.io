@@ -15,14 +15,14 @@ function showText(info) {
         document.getElementById("skill-text").innerHTML =
             "C++ was used in many of the engineering classes I have taken. I learned the basics in Cornerstone of " +
             "Engineering where I made small programs that did tasks such as solve the Tower of Hanoi in the least " +
-            "number of steps. In Embedded Design, I used C++ in combination with Simulink to program a robotic arm.";
+            "number of steps. In Embedded Design, I used C++ in combination with Simulink to program a robotic arm.<br><br><br><br>";
     } else if (info === 'puppet') {
         document.getElementById("skill-text").innerHTML =
             "I learned to use Puppet at Wayfair. Working with puppet gave me the opportunity to" +
             " interact with and troubleshoot on a linux machine while learning some new programming tricks at the " +
             "same time. I learned to use the CLI to do things from a simple grep command to tracing the contents" +
             " of packages sent to and from specific ports in addition to the role/profile structure of " +
-            "puppet development.";
+            "puppet development.<br><br>";
     } else if (info === 'csharp') {
         document.getElementById("skill-text").innerHTML =
             "The C# I know is purely self-taught for game development in Unity. My " +
