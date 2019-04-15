@@ -30,7 +30,7 @@
     <script src="PlanetPolluterTemplateData/UnityProgress.js"></script>
     <script src="PlanetPolluterBuild/UnityLoader.js"></script>
     <script>
-        var gameInstance = UnityLoader.instantiate("gameContainer", "PlanetPolluterBuild/PolluterWeb.json", {onProgress: UnityProgress});
+        var gameInstance = UnityLoader.instantiate("gc", "PlanetPolluterBuild/PolluterWeb.json", {onProgress: UnityProgress});
     </script>
 </head>
 <body>
@@ -41,7 +41,7 @@
 <script src="homeScripts.js"></script>
 <div class="body-content">
     <!--style="width: 800px; height: 500px"-->
-    <div class="mx-auto d-block" id="gameContainer" style="width: 50%; height: 50%;"></div>
+    <div class="mx-auto d-block gameBlock" id="gc"></div>
     <div class="intro-hello" style="text-align: center;">
         <b>Planet Polluter</b>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
