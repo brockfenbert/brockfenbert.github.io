@@ -46,6 +46,10 @@
     font-size: calc(14px + .8vw);
 }
 
+.small-text {
+    font-size: calc(10px + .5vw);
+}
+
 .medium-dogfish {
     font-size: calc(14px + .5vw)
 }

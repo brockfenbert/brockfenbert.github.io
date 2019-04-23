@@ -6,9 +6,9 @@
 function showText(info) {
     if (info === 'java') {
         document.getElementById("skill-text").innerHTML =
-            "I first learned java in AP computer science, but have continued to develop my skills through both class" +
+            "I first learned Java in AP computer science, but have continued to develop my skills through both class" +
             " and work. While working at Wayfair, I spent a lot of time with the Wicket framework to develop a " +
-            "web app to ineract with Apache Solr. Sadly, I have lost the code for my first project in java, a text-based rpg I made during " +
+            "web app to ineract with Apache Solr. Sadly, I have lost the code for my first project in Java, a text-based rpg I made during " +
             "APCS. I've searched my old flash drives many times to find it, but it appears to only have existed " +
             "on school computers (not a mistake I will make again)."
     } else if (info === 'cplusplus') {
@@ -18,11 +18,11 @@ function showText(info) {
             "number of steps. In Embedded Design, I used C++ in combination with Simulink to program a robotic arm.<br><br><br><br>";
     } else if (info === 'puppet') {
         document.getElementById("skill-text").innerHTML =
-            "I learned to use Puppet at Wayfair. Working with puppet gave me the opportunity to" +
-            " interact with and troubleshoot on a linux machine while learning some new programming tricks at the " +
+            "I learned to use Puppet at Wayfair. Working with Puppet gave me the opportunity to" +
+            " interact with and troubleshoot on a Linux machine while learning some new programming tricks at the " +
             "same time. I learned to use the CLI to do things from a simple grep command to tracing the contents" +
             " of packages sent to and from specific ports in addition to the role/profile structure of " +
-            "puppet development.<br><br>";
+            "Puppet development.<br><br>";
     } else if (info === 'csharp') {
         document.getElementById("skill-text").innerHTML =
             "The C# I know is purely self-taught for game development in Unity. My " +
