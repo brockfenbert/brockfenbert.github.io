@@ -32,6 +32,51 @@
 </div>
 <script src="//code.jquery.com/jquery.min.js"></script>
 <script src="homeScripts.js"></script>
+<div class="body-content">
+    <div class="row justify-content-center">
+        <span class="col-sm-8 large-text" style="text-align: left"><b>Robotic Arm</b></span>
+    </div>
+    <div class="row justify-content-center">
+        <span class="col-sm-6">
+            <img src="project-images/robotic-arm/whole-arm.png" class="rounded mx-auto d-block img-fluid">
+        </span>
+    </div>
+    <div class="pollution-description row justify-content-center medium-text">
+        <div class="col-sm-8">
+            <p> In Embedded design, I worked with a partner to create multiple programs that interacted with
+                a robotic arm and multiple servo motors.  The core of the final product was a C++ program that
+                allowed a user to select actions for the arm based.  Simulink was used to create HDL code to
+                program the ZedBoard FPGA, which used another C++ program that linked the specific memory
+                addresses of the FPGA.
+                <a class="normal-link" target="_blank" href="https://www.youtube.com/watch?v=R-dCku5QO54&feature=youtu.be">
+                    An early build of the project</a>
+                used Bluetooth to have the arm's motion mirror that of a Wiimote
+                (definitely my favorite part of the project, live-action Wii Sports).
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <span class="col-sm-3">
+            <img src="project-images/robotic-arm/zedboard.JPG" class="rounded mx-auto d-block img-fluid">
+            <p class="small-text carousel-header">ZedBoard used for programming</p>
+        </span>
+        <div class="col-sm-3 embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WR1JRzWqcOA" allowfullscreen></iframe>
+        </div>
+        <span class="col-sm-3">
+            <p class="small-text carousel-header">Final Demo (left, or above on mobile)</p>
+            <p class="small-text carousel-header">Shows the following actions:</p>
+            <ul class="small-text carousel-header" style="list-style-type: none">
+                <li>Wave</li>
+                <li>Shake Hands</li>
+                <li>High Five</li>
+                <li>Grab and Throw</li>
+                <li>Dance (twice)</li>
+                <li>Random Generated Motion</li>
+            </ul>
+        </span>
+    </div>
+</div>
 
 </body>
 </html>
