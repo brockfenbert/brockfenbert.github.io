@@ -7,10 +7,9 @@ function showText(info) {
     if (info === 'java') {
         document.getElementById("skill-text").innerHTML =
             "I first learned Java in AP computer science, but have continued to develop my skills through both class" +
-            " and work. While working at Wayfair, I spent a lot of time with the Wicket framework to develop a " +
-            "web app to ineract with Apache Solr. Sadly, I have lost the code for my first project in Java, a text-based rpg I made during " +
-            "APCS. I've searched my old flash drives many times to find it, but it appears to only have existed " +
-            "on school computers (not a mistake I will make again)."
+            " and work. While working at Wayfair and Poloniex, I worked on Java web apps created using two different frameworks." +
+            " In class, using Java was the main focus of classes such as Object Oriented Design and was my language of " +
+            "choice for programming challenges for other classes."
     } else if (info === 'cplusplus') {
         document.getElementById("skill-text").innerHTML =
             "C++ was used in many of the engineering classes I have taken. I learned the basics in Cornerstone of " +
@@ -25,18 +24,16 @@ function showText(info) {
             "Puppet development.<br><br>";
     } else if (info === 'csharp') {
         document.getElementById("skill-text").innerHTML =
-            "The C# I know is purely self-taught for game development in Unity. My " +
-            "first time using C#/Unity was during the NASA SpaceApps Hackathon creating Planet Polluter, and since I have" +
-            " been working on making some games on my own. My first goal was a 2D platformer (I've played a fair " +
-            "amount of flash games so my mind went right there), but have scaled back my initial plans to making " +
-            "clones of games like snake to get the basics down.";
+            "I learned C# in order to make games in Unity. This started as a purely self-taught language." +
+            " This summer, I took a course through Udemy on 2D development and later a class on 3D game" +
+            " development through Northeastern both focused on C#/Unity. Random Unity projects is where I spend " +
+            "most of my personal project time.";
     } else if (info === 'html') {
         document.getElementById("skill-text").innerHTML =
-            "I'm lumping HTML/CSS/JavaScript all under the same category of skills. My exposure to these languages " +
-            "comes from creating this website and working with Wicket. A lot of this website uses Bootstrap for the " +
+            "I'm lumping all web development languages under the same category of skills. My exposure to these languages " +
+            "started with working on this website and was expanded during my time at Poloniex. A lot of this website uses Bootstrap for the " +
             "CSS/JavaScript, but it's done custom by me where necessary (like this sweet hover-to-reveal-text " +
-            "function). At Wayfair, one of my teammates spent more time on the style while I worked on the backend for the Wicket" +
-            " web app, but I still got to add in the occasional div.";
+            "function). At Poloniex, a lot of my time was spent working with legacy PHP code and transferring that to VUE.";
     }
 }
 
